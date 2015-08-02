@@ -28,7 +28,7 @@ gulp.task('serve', ['server'], function() {
         notify: false,
         port: 8082,
         server: {
-            baseDir: ["app"],
+            baseDir: ["app","test"],
             routes: {
                 '/bower_components': 'bower_components'
             }
